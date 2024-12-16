@@ -36,20 +36,6 @@ Run startup.bat (Windows) or startup.sh (Linux/Mac) to start Tomcat.
 Open your browser and go to http://localhost:8080/news.
 
 ---
-## Folder Structure
-news/
-├── WEB-INF/
-│   ├── classes/
-│   │   └── NewsAggregatorServlet.class
-│   ├── lib/
-│   │   └── json.jar
-│   └── web.xml
-├── css/
-│   └── news.css
-└── index.html
-
-
----
 ## Troubleshooting
 HTTP Status 500: Check server logs for errors and ensure all required libraries are in the correct paths.
 ClassNotFoundException: Ensure that all libraries (e.g., json.jar) are in the WEB-INF/lib folder.
